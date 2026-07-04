@@ -631,3 +631,45 @@ console.log("%cWebsite Developed with ❤️","color:#F57C00;font-size:15px;");
 </url>
 
 </urlset>
+{
+    "name":"Gangauli Rising Foundation",
+
+    "short_name":"GRF",
+
+    "description":"समाज सेवा • सहयोग • विकास",
+
+    "start_url":"./",
+
+    "display":"standalone",
+
+    "background_color":"#ffffff",
+
+    "theme_color":"#1B5E20",
+
+    "orientation":"portrait",
+
+    "icons":[
+
+        {
+
+            "src":"images/favicon.png",
+
+            "sizes":"192x192",
+
+            "type":"image/png"
+
+        },
+
+        {
+
+            "src":"images/favicon.png",
+
+            "sizes":"512x512",
+
+            "type":"image/png"
+
+        }
+
+    ]
+
+}

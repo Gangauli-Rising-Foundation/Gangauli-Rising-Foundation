@@ -614,3 +614,20 @@ menuBtn.innerHTML='<i class="fa-solid fa-bars"></i>';
 console.log("%c🌿 Gangauli Rising Foundation","font-size:22px;color:#1B5E20;font-weight:bold");
 
 console.log("%cWebsite Developed with ❤️","color:#F57C00;font-size:15px;");
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+
+<loc>https://YOUR-DOMAIN/</loc>
+
+<lastmod>2026-07-05</lastmod>
+
+<changefreq>weekly</changefreq>
+
+<priority>1.0</priority>
+
+</url>
+
+</urlset>

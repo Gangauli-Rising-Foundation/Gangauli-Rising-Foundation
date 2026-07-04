@@ -953,3 +953,366 @@ padding:30px;
 }
 
 }
+/*=========================================================
+                GRF SEVA FUND
+=========================================================*/
+
+.fund{
+
+    padding:120px 0;
+    background:#ffffff;
+
+}
+
+.fund-wrapper{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:70px;
+    align-items:center;
+
+}
+
+.fund-content h3{
+
+    font-size:34px;
+    color:var(--primary);
+    margin-bottom:25px;
+
+}
+
+.fund-content p{
+
+    font-size:18px;
+    color:#555;
+    line-height:1.9;
+    margin-bottom:20px;
+    text-align:justify;
+
+}
+
+.fund-image img{
+
+    width:100%;
+    border-radius:24px;
+    box-shadow:0 20px 60px rgba(0,0,0,.12);
+
+}
+
+/*=========================================================
+                VOLUNTEER
+=========================================================*/
+
+.volunteer{
+
+    padding:120px 0;
+    background:linear-gradient(135deg,#1B5E20,#2E7D32);
+
+}
+
+.volunteer-box{
+
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    color:#fff;
+
+}
+
+.volunteer-box span{
+
+    display:inline-block;
+    background:rgba(255,255,255,.15);
+    padding:10px 26px;
+    border-radius:50px;
+    margin-bottom:25px;
+    font-weight:700;
+
+}
+
+.volunteer-box h2{
+
+    font-size:44px;
+    margin-bottom:25px;
+    line-height:1.4;
+
+}
+
+.volunteer-box p{
+
+    font-size:19px;
+    margin-bottom:40px;
+    opacity:.95;
+
+}
+
+.volunteer .btn-primary{
+
+    background:#fff;
+    color:var(--primary);
+
+}
+
+.volunteer .btn-primary:hover{
+
+    background:#F57C00;
+    color:#fff;
+
+}
+
+/*=========================================================
+                JOIN WHATSAPP
+=========================================================*/
+
+.join{
+
+    padding:100px 0;
+    background:#F8FAFB;
+
+}
+
+.join-box{
+
+    background:#fff;
+    border-radius:25px;
+    padding:60px;
+    box-shadow:0 15px 50px rgba(0,0,0,.08);
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+
+}
+
+.join-box h2{
+
+    color:var(--primary);
+    margin-bottom:15px;
+    font-size:36px;
+
+}
+
+.join-box p{
+
+    color:#666;
+    font-size:18px;
+
+}
+
+/*=========================================================
+                CONTACT
+=========================================================*/
+
+.contact{
+
+    padding:120px 0;
+    background:#ffffff;
+
+}
+
+.contact-wrapper{
+
+    display:grid;
+    grid-template-columns:380px 1fr;
+    gap:60px;
+
+}
+
+.contact-info{
+
+    background:#1B5E20;
+    color:#fff;
+    border-radius:25px;
+    padding:45px;
+
+}
+
+.contact-info h3{
+
+    font-size:30px;
+    margin-bottom:25px;
+
+}
+
+.contact-info p{
+
+    margin-bottom:20px;
+    line-height:1.9;
+
+}
+
+.contact-form{
+
+    display:grid;
+    gap:22px;
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+    width:100%;
+    padding:18px 22px;
+    border:1px solid #ddd;
+    border-radius:16px;
+    font-size:16px;
+    outline:none;
+    transition:.3s;
+    font-family:'Noto Sans Devanagari',sans-serif;
+
+}
+
+.contact-form textarea{
+
+    resize:none;
+
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+
+    border-color:var(--primary);
+
+}
+
+/*=========================================================
+                FOOTER
+=========================================================*/
+
+footer{
+
+    background:#13361A;
+    color:#fff;
+    padding-top:90px;
+
+}
+
+.footer-wrapper{
+
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:60px;
+    padding-bottom:60px;
+
+}
+
+.footer-wrapper h3{
+
+    margin:18px 0;
+
+}
+
+.footer-wrapper h4{
+
+    margin-bottom:20px;
+
+}
+
+.footer-wrapper p{
+
+    opacity:.85;
+    line-height:1.8;
+
+}
+
+.footer-wrapper li{
+
+    margin-bottom:14px;
+
+}
+
+.footer-wrapper a{
+
+    opacity:.85;
+    transition:.3s;
+
+}
+
+.footer-wrapper a:hover{
+
+    color:#F57C00;
+
+}
+
+.copyright{
+
+    border-top:1px solid rgba(255,255,255,.1);
+    text-align:center;
+    padding:22px;
+    font-size:15px;
+    opacity:.75;
+
+}
+
+/*=========================================================
+                RESPONSIVE
+=========================================================*/
+
+@media(max-width:992px){
+
+.fund-wrapper,
+.contact-wrapper,
+.footer-wrapper{
+
+grid-template-columns:1fr;
+
+}
+
+.join-box{
+
+flex-direction:column;
+text-align:center;
+
+}
+
+.volunteer-box h2{
+
+font-size:34px;
+
+}
+
+.join-box h2{
+
+font-size:30px;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.fund,
+.volunteer,
+.join,
+.contact{
+
+padding:80px 0;
+
+}
+
+.join-box{
+
+padding:35px;
+
+}
+
+.contact-info{
+
+padding:30px;
+
+}
+
+.footer-wrapper{
+
+gap:35px;
+
+}
+
+.volunteer-box h2{
+
+font-size:28px;
+
+}
+
+}

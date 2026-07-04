@@ -817,3 +817,368 @@ font-size:17px;
 }
 
 }
+/*==================================================
+                VISION
+==================================================*/
+
+.vision{
+
+    background:#ffffff;
+
+}
+
+.vision-wrapper{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+.vision-content p{
+
+    font-size:18px;
+
+    color:#555;
+
+    line-height:2;
+
+    margin-bottom:22px;
+
+}
+
+.vision-image img{
+
+    border-radius:28px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.10);
+
+}
+
+/*==================================================
+                MISSION
+==================================================*/
+
+.mission{
+
+    background:#F8FAFB;
+
+}
+
+.mission-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+}
+
+.mission-card{
+
+    background:#fff;
+
+    border-radius:24px;
+
+    padding:45px 35px;
+
+    text-align:center;
+
+    box-shadow:0 15px 45px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.mission-card:hover{
+
+    transform:translateY(-12px);
+
+}
+
+.mission-card i{
+
+    font-size:52px;
+
+    color:var(--primary);
+
+    margin-bottom:22px;
+
+}
+
+.mission-card h3{
+
+    font-size:24px;
+
+    color:var(--primary);
+
+    margin-bottom:16px;
+
+}
+
+.mission-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+/*==================================================
+                WORK AREA
+==================================================*/
+
+.work-area{
+
+    background:#ffffff;
+
+}
+
+.work-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+.work-grid div{
+
+    background:#fff;
+
+    padding:28px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.07);
+
+    font-size:20px;
+
+    font-weight:600;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.work-grid div:hover{
+
+    background:var(--primary);
+
+    color:#fff;
+
+    transform:translateY(-8px);
+
+}
+
+/*==================================================
+                TIMELINE
+==================================================*/
+
+.journey{
+
+    background:linear-gradient(135deg,#F8FAFB,#ffffff);
+
+}
+
+.timeline{
+
+    max-width:900px;
+
+    margin:auto;
+
+    position:relative;
+
+    padding-left:45px;
+
+}
+
+.timeline::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:12px;
+
+    top:0;
+
+    width:4px;
+
+    height:100%;
+
+    background:var(--primary);
+
+}
+
+.timeline-item{
+
+    position:relative;
+
+    margin-bottom:60px;
+
+}
+
+.timeline-item:last-child{
+
+    margin-bottom:0;
+
+}
+
+.timeline-item::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:-42px;
+
+    top:12px;
+
+    width:22px;
+
+    height:22px;
+
+    border-radius:50%;
+
+    background:var(--secondary);
+
+    border:5px solid #fff;
+
+    box-shadow:0 0 0 4px rgba(27,94,32,.15);
+
+}
+
+.year{
+
+    display:inline-block;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    padding:8px 18px;
+
+    border-radius:50px;
+
+    font-weight:700;
+
+    margin-bottom:18px;
+
+}
+
+.timeline-content{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+.timeline-content h3{
+
+    color:var(--primary);
+
+    margin-bottom:15px;
+
+    font-size:26px;
+
+}
+
+.timeline-content p{
+
+    color:#666;
+
+    line-height:1.9;
+
+}
+
+/*==================================================
+                RESPONSIVE
+==================================================*/
+
+@media(max-width:992px){
+
+.vision-wrapper{
+
+grid-template-columns:1fr;
+
+}
+
+.mission-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.work-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.timeline{
+
+padding-left:30px;
+
+}
+
+.timeline-item::before{
+
+left:-28px;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.vision-content p{
+
+font-size:16px;
+
+}
+
+.mission-card{
+
+padding:35px 25px;
+
+}
+
+.mission-card h3{
+
+font-size:22px;
+
+}
+
+.work-grid div{
+
+font-size:18px;
+
+}
+
+.timeline-content{
+
+padding:25px;
+
+}
+
+.timeline-content h3{
+
+font-size:22px;
+
+}
+
+}
